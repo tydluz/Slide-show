@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale = 1" />
+        <title>Carousel Project</title>
+        <link href="styles.css" rel="stylesheet" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="slide">
+            <button class="slide-button slide__button--backward">
+                <img src="./images/back.png" alt="" />
+            </button>
+
+            <div class="slide__track-container">
+                <ul class="slide__track">
+                    <li class="slide__image-container current-slide">
+                        <img
+                            src="./images/slide-1.jpg"
+                            class="slide-image"
+                            alt=""
+                        />
+                    </li>
+                    <li class="slide__image-container">
+                        <img
+                            src="./images/slide-2.jpg"
+                            class="slide-image"
+                            alt=""
+                        />
+                    </li>
+                    <li class="slide__image-container">
+                        <img
+                            src="./images/slide-3.jpg"
+                            class="slide-image"
+                            alt=""
+                        />
+                    </li>
+                    <li class="slide__image-container">
+                        <img
+                            src="./images/slide-4.jpg"
+                            class="slide-image"
+                            alt=""
+                        />
+                    </li>
+                    <li class="slide__image-container">
+                        <img
+                            src="./images/slide-5.jpg"
+                            class="slide-image"
+                            alt=""
+                        />
+                    </li>
+                    <li class="slide__image-container">
+                        <img
+                            src="./images/slide-6.jpg"
+                            class="slide-image"
+                            alt=""
+                        />
+                    </li>
+                </ul>
+            </div>
+
+            <button class="slide-button slide__button--forward">
+                <img src="./images/forward.png" alt="" />
+            </button>
+
+            <div class="slide__nav">
+                <button class="slide__indicator current-slide"></button>
+                <button class="slide__indicator"></button>
+                <button class="slide__indicator"></button>
+                <button class="slide__indicator"></button>
+                <button class="slide__indicator"></button>
+                <button class="slide__indicator"></button>
+            </div>
+        </div>
+    </body>
+</html>
